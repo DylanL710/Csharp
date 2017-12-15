@@ -334,8 +334,8 @@
     <AppxPackagedFile Include="C:\Users\Dylan\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Csharp Project\App1\App1\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Csharp Project\App1\App1\Assets\gradient.png">
+      <PackagePath>Assets\gradient.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dylan\Documents\Csharp Project\App1\App1\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -363,6 +363,9 @@
     <AppxPackagedFile Include="C:\Users\Dylan\Documents\Csharp Project\App1\App1\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Csharp Project\App1\App1\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dylan\Documents\Csharp Project\App1\App1\bin\x64\Debug\App1.xr.xml">
       <PackagePath>App1.xr.xml</PackagePath>

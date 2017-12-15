@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Text;
+using System.Xml.Linq;
+using System.Xml.Serialization;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -89,6 +92,11 @@ namespace App1
                 answer.Text = ans.ToString();
                 dec = false;
             }
+        }
+
+        private void save()
+        {
+            
         }
     }
 }
