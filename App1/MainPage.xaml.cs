@@ -54,5 +54,14 @@ namespace App1
                 dec = true;
             }
         }
+
+        private void clear_Click(object sender, RoutedEventArgs e)
+        {
+            total = 0;
+            ans = 0;
+            key = "";
+            dec = false;
+            answer.Text = "";
+        }
     }
 }
