@@ -22,9 +22,9 @@
             <RowDefinition />
             <RowDefinition />
         </Grid.RowDefinitions>
-
+        
         <StackPanel Grid.Row="0" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Left" Height="auto" Margin="10,10,0,0" VerticalAlignment="Top" Width="auto">
-            <Button x:Name="seven" Content="7" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Height="70" Width="100"/>
+            <Button x:Name="seven" Content="7" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Height="70" Width="100" Click="Number_click"/>
             <Button x:Name="eight" Content="8" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="100"/>
             <Button x:Name="nine" Content="9" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="100"/>
         </StackPanel>
@@ -49,6 +49,5 @@
         <StackPanel Grid.Row="0" Grid.ColumnSpan="5" Grid.RowSpan="2" HorizontalAlignment="Left" Height="auto" Margin="325,10,0,0" VerticalAlignment="Top" Width="auto">
             <TextBox x:Name="answer" HorizontalAlignment="Left" Margin="0,0,0,0" TextAlignment="Right" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="155" Width="305"/>
         </StackPanel>
-
     </Grid>
 </Page>

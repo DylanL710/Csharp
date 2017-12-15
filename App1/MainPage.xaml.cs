@@ -20,9 +20,21 @@ namespace App1
     // Functionality for the calculator goes here
     public sealed partial class MainPage : Page
     {
+
+        double total = 0;
+        double ans = 0;
+        String key = "";
+        bool dec = false;
+
         public MainPage()
         {
             this.InitializeComponent();
+        }
+
+        private void Number_click(object sender, RoutedEventArgs e)
+        {
+            Button b = (Button)sender;
+            answer.Text += (String)b.Content;
         }
     }
 }
