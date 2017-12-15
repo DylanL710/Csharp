@@ -36,5 +36,14 @@ namespace App1
             Button b = (Button)sender;
             answer.Text += (String)b.Content;
         }
+
+        private void operation_Click(object sender, RoutedEventArgs e)
+        {
+            Button b = (Button)sender;
+            key = (String)b.Content;
+            total = double.Parse(answer.Text);
+            answer.Text = "";
+            dec = false;
+        }
     }
 }
