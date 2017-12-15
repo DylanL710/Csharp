@@ -22,32 +22,36 @@
             <RowDefinition />
             <RowDefinition />
         </Grid.RowDefinitions>
-        
+
         <StackPanel Grid.Row="0" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Left" Height="auto" Margin="10,10,0,0" VerticalAlignment="Top" Width="auto">
             <Button x:Name="seven" Content="7" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Height="70" Width="100" Click="Number_click"/>
-            <Button x:Name="eight" Content="8" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="100"/>
-            <Button x:Name="nine" Content="9" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="100"/>
+            <Button x:Name="eight" Content="8" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="100" Click="Number_click"/>
+            <Button x:Name="nine" Content="9" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="100" Click="Number_click"/>
         </StackPanel>
-        <StackPanel Grid.Row="1" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Left" Height="auto" Margin="10,0,0,0" VerticalAlignment="Top" Width="auto">
-            <Button x:Name="four" Content="4" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Height="70" Width="100"/>
-            <Button x:Name="five" Content="5" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="100"/>
-            <Button x:Name="six" Content="6" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="100"/>
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="5" Orientation="Horizontal" HorizontalAlignment="Left" Height="auto" Margin="10,0,0,0" VerticalAlignment="Top" Width="auto">
+            <Button x:Name="four" Content="4" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Height="70" Width="100" Click="Number_click"/>
+            <Button x:Name="five" Content="5" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="100" Click="Number_click"/>
+            <Button x:Name="six" Content="6" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="100" Click="Number_click"/>
+            <Button x:Name="plus" Content="+" HorizontalAlignment="Left" Margin="50,0,0,0" VerticalAlignment="Top" Height="70" Width="50" Click="operation_Click"/>
+            <Button x:Name="minus" Content="-" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="50" Click="operation_Click"/>
+            <Button x:Name="multiply" Content="*" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="50" Click="operation_Click"/>
+            <Button x:Name="divide" Content="/" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="50" Click="operation_Click"/>
         </StackPanel>
         <StackPanel Grid.Row="2" Grid.ColumnSpan="5" Orientation="Horizontal" HorizontalAlignment="Left" Height="auto" Margin="10,0,0,0" VerticalAlignment="Top" Width="auto">
-            <Button x:Name="one" Content="1" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Height="70" Width="100"/>
-            <Button x:Name="two" Content="2" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="100"/>
-            <Button x:Name="three" Content="3" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="100"/>
+            <Button x:Name="one" Content="1" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Height="70" Width="100" Click="Number_click"/>
+            <Button x:Name="two" Content="2" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="100" Click="Number_click"/>
+            <Button x:Name="three" Content="3" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="100" Click="Number_click"/>
             <Button x:Name="save_Calc" Content="Save Calculation" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="150"/>
             <Button x:Name="load_Calc" Content="Load Calculation" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="150"/>
         </StackPanel>
         <StackPanel Grid.Row="3" Grid.ColumnSpan="5" Orientation="Horizontal" HorizontalAlignment="Left" Height="auto" Margin="10,0,0,0" VerticalAlignment="Top" Width="auto">
-            <Button x:Name="zero" Content="0" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Height="70" Width="100"/>
-            <Button x:Name="point" Content="." HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="100"/>
+            <Button x:Name="zero" Content="0" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Height="70" Width="100" Click="Number_click"/>
+            <Button x:Name="point" Content="." HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="100" Click="Number_click"/>
             <Button x:Name="clear" Content="CLEAR" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="100"/>
             <Button x:Name="submit" Content="ENTER" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="305"/>
         </StackPanel>
         <StackPanel Grid.Row="0" Grid.ColumnSpan="5" Grid.RowSpan="2" HorizontalAlignment="Left" Height="auto" Margin="325,10,0,0" VerticalAlignment="Top" Width="auto">
-            <TextBox x:Name="answer" HorizontalAlignment="Left" Margin="0,0,0,0" TextAlignment="Right" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="155" Width="305"/>
+            <TextBox x:Name="answer" HorizontalAlignment="Left" Margin="0,0,0,0" TextAlignment="Right" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="70" Width="313"/>
         </StackPanel>
     </Grid>
 </Page>

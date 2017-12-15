@@ -45,5 +45,14 @@ namespace App1
             answer.Text = "";
             dec = false;
         }
+
+        private void dec_Click(object sender, RoutedEventArgs e)
+        {
+            if (!dec)
+            {
+                answer.Text += ".";
+                dec = true;
+            }
+        }
     }
 }
