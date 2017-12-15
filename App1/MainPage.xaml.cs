@@ -63,5 +63,32 @@ namespace App1
             dec = false;
             answer.Text = "";
         }
+
+        private void enter_Click(object sender, RoutedEventArgs e)
+        {
+            if (answer.Text.Length > 0)
+            {
+                double num = double.Parse(answer.Text);
+                if (key == "+")
+                {
+                    ans = total + num;
+                }
+                if (key == "-")
+                {
+                    ans = total - num;
+                }
+                if (key == "*")
+                {
+                    ans = total * num;
+                }
+                if (key == "/")
+                {
+                    ans = total / num;
+                }
+
+                answer.Text = ans.ToString();
+                dec = false;
+            }
+        }
     }
 }
