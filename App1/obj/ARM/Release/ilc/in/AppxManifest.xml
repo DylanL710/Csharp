@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="48646DylanLoftus.ColourfulCalculator" Publisher="CN=EAF95955-DE35-446C-A0C3-4E6C51AEEF24" Version="1.1.5.0" ProcessorArchitecture="arm" />
+  <Identity Name="48646DylanLoftus.ColourfulCalculator" Publisher="CN=EAF95955-DE35-446C-A0C3-4E6C51AEEF24" Version="1.1.9.0" ProcessorArchitecture="arm" />
   <mp:PhoneIdentity PhoneProductId="9a6f7e04-df83-4a3a-8200-cb5a58432547" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>ColourfulCalculator</DisplayName>

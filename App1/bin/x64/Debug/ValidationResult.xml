@@ -1,61 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\results.xsl'?>
-<REPORT xml:lang="en-US" OVERALL_RESULT="FAIL" VERSION="10.0.14393.33" LATEST_VERSION="FALSE" UPDATE_DOWNLOAD_URL="https://go.microsoft.com/fwlink/?LinkID=246599" TOOLSET_ARCHITECTURE="x64" SecureBoot="FALSE" APP_TYPE="UapApp" PUBLISHER_DISPLAY_NAME="CN=EAF95955-DE35-446C-A0C3-4E6C51AEEF24" APP_NAME="" APP_VERSION="" OSVERSION="10.0.14393.0" OS="Microsoft Windows 10 Home" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="1033" VALIDATION_TYPE="UI" ReportGenerationTime="16-Dec-17 5:54:16 PM" ID="151bd272a995284df6bc1682c06c4c34">
+<REPORT xml:lang="en-US" OVERALL_RESULT="PASS" VERSION="10.0.14393.33" LATEST_VERSION="FALSE" UPDATE_DOWNLOAD_URL="https://go.microsoft.com/fwlink/?LinkID=246599" TOOLSET_ARCHITECTURE="x64" SecureBoot="FALSE" APP_TYPE="UapApp" PUBLISHER_DISPLAY_NAME="CN=EAF95955-DE35-446C-A0C3-4E6C51AEEF24" APP_NAME="" APP_VERSION="" OSVERSION="10.0.14393.0" OS="Microsoft Windows 10 Home" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="1033" VALIDATION_TYPE="UI" ReportGenerationTime="16-Dec-17 6:21:57 PM" ID="bdbf0aa97c492570a1ce5937e53e18e7">
   <REQUIREMENTS>
     <REQUIREMENT NUMBER="10" TITLE="Deployment and launch tests" RATIONALE="Application failures such as crashes and hangs are a major disruption to users and cause frustration. Eliminating such failures improves application stability and reliability, and overall, provides users with a better application experience.">
-      <TEST INDEX="50" NAME="Bytecode generation" DESCRIPTION="Byte code generation should be able to complete successfully for packages containing an HTML5 Windows Store app." EXECUTIONTIME="00h:00m:00s.82ms">
+      <TEST INDEX="50" NAME="Bytecode generation" DESCRIPTION="Byte code generation should be able to complete successfully for packages containing an HTML5 Windows Store app." EXECUTIONTIME="00h:00m:00s.85ms">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="79" NAME="Background tasks cancelation handler" DESCRIPTION="App should implement event handler to handle background task cancelation request." EXECUTIONTIME="00h:00m:20s.76ms">
+      <TEST INDEX="79" NAME="Background tasks cancelation handler" DESCRIPTION="App should implement event handler to handle background task cancelation request." EXECUTIONTIME="00h:00m:19s.76ms">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="81" NAME="Platform version launch" DESCRIPTION="App should not mis-use OSVersionInfo API to provide users functionality that is specific to the OS." EXECUTIONTIME="00h:00m:17s.31ms">
+      <TEST INDEX="81" NAME="Platform version launch" DESCRIPTION="App should not mis-use OSVersionInfo API to provide users functionality that is specific to the OS." EXECUTIONTIME="00h:00m:17s.34ms">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="47" NAME="App launch" DESCRIPTION="App launch tests." EXECUTIONTIME="00h:00m:17s.29ms">
+      <TEST INDEX="47" NAME="App launch" DESCRIPTION="App launch tests." EXECUTIONTIME="00h:00m:17s.33ms">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="80" NAME="App prelaunch" DESCRIPTION="App should pass app prelaunch validation." EXECUTIONTIME="00h:01m:04s.32ms">
+      <TEST INDEX="80" NAME="App prelaunch" DESCRIPTION="App should pass app prelaunch validation." EXECUTIONTIME="00h:00m:57s.33ms">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="21" NAME="Crashes and hangs" DESCRIPTION="Do not crash or hang during the testing process." EXECUTIONTIME="00h:00m:02s.16ms">
+      <TEST INDEX="21" NAME="Crashes and hangs" DESCRIPTION="Do not crash or hang during the testing process." EXECUTIONTIME="00h:00m:02s.26ms">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="12" TITLE="Package compliance test" RATIONALE="The package manifest was missing one or more required attributes.">
-      <TEST INDEX="77" NAME="Application count" DESCRIPTION="One package should not define more than one app in the manifest." EXECUTIONTIME="00h:00m:00s.92ms">
+      <TEST INDEX="77" NAME="Application count" DESCRIPTION="One package should not define more than one app in the manifest." EXECUTIONTIME="00h:00m:00s.83ms">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="31" NAME="App manifest" DESCRIPTION="App manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:00s.94ms">
+      <TEST INDEX="31" NAME="App manifest" DESCRIPTION="App manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:00s.93ms">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="74" NAME="Bundle manifest" DESCRIPTION="Bundle manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:01s.04ms">
+      <TEST INDEX="74" NAME="Bundle manifest" DESCRIPTION="Bundle manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:00s.89ms">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="75" NAME="Package size" DESCRIPTION="Package file size should not be greater than 4 gigabytes." EXECUTIONTIME="00h:00m:00s.87ms">
+      <TEST INDEX="75" NAME="Package size" DESCRIPTION="Package file size should not be greater than 4 gigabytes." EXECUTIONTIME="00h:00m:00s.90ms">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="83" NAME="Restricted namespace" DESCRIPTION="Check if any restricted namespace is referenced in the appx manifest." EXECUTIONTIME="00h:00m:00s.78ms">
+      <TEST INDEX="83" NAME="Restricted namespace" DESCRIPTION="Check if any restricted namespace is referenced in the appx manifest." EXECUTIONTIME="00h:00m:00s.81ms">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="14" TITLE="Windows security features test" RATIONALE="Applications must opt-into Windows security features.">
-      <TEST INDEX="33" NAME="Binary analyzer" DESCRIPTION="Analysis of security features enabled on binaries" EXECUTIONTIME="00h:00m:01s.17ms">
+      <TEST INDEX="33" NAME="Binary analyzer" DESCRIPTION="Analysis of security features enabled on binaries" EXECUTIONTIME="00h:00m:01s.14ms">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="70" NAME="Banned file analyzer" DESCRIPTION="Analysis of application to detect known insecure files" EXECUTIONTIME="00h:00m:00s.74ms">
+      <TEST INDEX="70" NAME="Banned file analyzer" DESCRIPTION="Analysis of application to detect known insecure files" EXECUTIONTIME="00h:00m:00s.77ms">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -65,43 +65,41 @@
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="15" TITLE="Supported API test" RATIONALE="The application should only refer to the APIs allowed by the Windows SDK for Windows Store Apps.">
-      <TEST INDEX="38" NAME="Supported APIs" DESCRIPTION="Windows Store App must only use supported platform APIs." EXECUTIONTIME="00h:00m:01s.74ms">
+      <TEST INDEX="38" NAME="Supported APIs" DESCRIPTION="Windows Store App must only use supported platform APIs." EXECUTIONTIME="00h:00m:01s.73ms">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="19" TITLE="App manifest resources tests" RATIONALE="The App Package Manifest should have valid resources defined in the resources.pri file, as per the App Packaging Specification and App Manifest Schema.">
-      <TEST INDEX="45" NAME="App resources" DESCRIPTION="The package should have valid resources defined in the resources.pri file." EXECUTIONTIME="00h:00m:00s.70ms">
+      <TEST INDEX="45" NAME="App resources" DESCRIPTION="The package should have valid resources defined in the resources.pri file." EXECUTIONTIME="00h:00m:00s.64ms">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="61" NAME="Branding" DESCRIPTION="App should not use the default images packed by windows SDK samples or Visual Studio." EXECUTIONTIME="00h:00m:01s.18ms">
-        <MESSAGES>
-          <MESSAGE TEXT="Image file SplashScreen.scale-200.png is a default image." />
-        </MESSAGES>
-        <RESULT><![CDATA[FAIL]]></RESULT>
+      <TEST INDEX="61" NAME="Branding" DESCRIPTION="App should not use the default images packed by windows SDK samples or Visual Studio." EXECUTIONTIME="00h:00m:01s.16ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="20" TITLE="Debug configuration test" RATIONALE="The App should not install any debug binaries.">
-      <TEST INDEX="46" NAME="Debug configuration" DESCRIPTION="The App should not install any debug binaries." EXECUTIONTIME="00h:00m:00s.83ms">
+      <TEST INDEX="46" NAME="Debug configuration" DESCRIPTION="The App should not install any debug binaries." EXECUTIONTIME="00h:00m:00s.86ms">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="21" TITLE="File encoding test" RATIONALE="Packages containing an HTML5 Windows Store app must have correct file encoding.">
-      <TEST INDEX="49" NAME="UTF-8 file encoding" DESCRIPTION="Packages containing an HTML5 Windows Store app must have correct file encoding." EXECUTIONTIME="00h:00m:00s.82ms">
+      <TEST INDEX="49" NAME="UTF-8 file encoding" DESCRIPTION="Packages containing an HTML5 Windows Store app must have correct file encoding." EXECUTIONTIME="00h:00m:00s.81ms">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="23" TITLE="App Capabilities test" RATIONALE="Packages declaring special-use capabilities will have to provide justifications during the onboarding process.">
-      <TEST INDEX="52" NAME="Special use capabilities" DESCRIPTION="Packages declaring special-use capabilities will have to provide justifications during the onboarding process." EXECUTIONTIME="00h:00m:00s.79ms">
+      <TEST INDEX="52" NAME="Special use capabilities" DESCRIPTION="Packages declaring special-use capabilities will have to provide justifications during the onboarding process." EXECUTIONTIME="00h:00m:00s.82ms">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="24" TITLE="Windows Runtime metadata validation" RATIONALE="Metadata needs to be conformant and consistent across all generation sources.">
-      <TEST INDEX="56" NAME="ExclusiveTo attribute" DESCRIPTION="A class must not implement an interface that is marked ExclusiveTo another class." EXECUTIONTIME="00h:00m:09s.08ms">
+      <TEST INDEX="56" NAME="ExclusiveTo attribute" DESCRIPTION="A class must not implement an interface that is marked ExclusiveTo another class." EXECUTIONTIME="00h:00m:08s.72ms">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -109,7 +107,7 @@
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="55" NAME="Type name case-sensitivity" DESCRIPTION="Namespace and type names must not vary only by casing." EXECUTIONTIME="00h:00m:00s.67ms">
+      <TEST INDEX="55" NAME="Type name case-sensitivity" DESCRIPTION="Namespace and type names must not vary only by casing." EXECUTIONTIME="00h:00m:00s.69ms">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -117,17 +115,17 @@
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="58" NAME="General metadata correctness" DESCRIPTION="Metadata files must meet various requirements in order to be valid and correct." EXECUTIONTIME="00h:00m:08s.49ms">
+      <TEST INDEX="58" NAME="General metadata correctness" DESCRIPTION="Metadata files must meet various requirements in order to be valid and correct." EXECUTIONTIME="00h:00m:09s.70ms">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="53" NAME="Properties" DESCRIPTION="Write-only and indexer properties may not be used. Corresponding getter and setter methods must match in type." EXECUTIONTIME="00h:00m:00s.68ms">
+      <TEST INDEX="53" NAME="Properties" DESCRIPTION="Write-only and indexer properties may not be used. Corresponding getter and setter methods must match in type." EXECUTIONTIME="00h:00m:00s.69ms">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="25" TITLE="Package sanity test" RATIONALE="Validation of the app package contents to ensure correctness.">
-      <TEST INDEX="63" NAME="Platform appropriate files" DESCRIPTION="App should not install files that do not match the target processor architecture." EXECUTIONTIME="00h:00m:00s.84ms">
+      <TEST INDEX="63" NAME="Platform appropriate files" DESCRIPTION="App should not install files that do not match the target processor architecture." EXECUTIONTIME="00h:00m:00s.82ms">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -137,7 +135,7 @@
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="27" TITLE="Resource Usage Test" RATIONALE="WinJS background tasks need to call close() to free resource.">
-      <TEST INDEX="68" NAME="WinJS background task" DESCRIPTION="WinJS background tasks need to call close() to free resource." EXECUTIONTIME="00h:00m:01s.05ms">
+      <TEST INDEX="68" NAME="WinJS background task" DESCRIPTION="WinJS background tasks need to call close() to free resource." EXECUTIONTIME="00h:00m:00s.89ms">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -145,12 +143,12 @@
   </REQUIREMENTS>
   <APPLICATIONS>
     <Installed_Programs>
-      <Program Name="48646DylanLoftus.ColourfulCalculator" Type="Application" Source="AppxPackage" Publisher="CN=EAF95955-DE35-446C-A0C3-4E6C51AEEF24" Version="1.1.5.0" Language="1033" InstallDate="12/16/2017 17:51:38" OSVersionAtInstallTime="10.0.0.14393" RootDirPath="c:\program files\windowsapps\48646dylanloftus.colourfulcalculator_1.1.5.0_x64__766vgrc1crmcg" Id="000037edf19f12d7e8ad0c54b8508155af4f00000904">
+      <Program Name="48646DylanLoftus.ColourfulCalculator" Type="Application" Source="AppxPackage" Publisher="CN=EAF95955-DE35-446C-A0C3-4E6C51AEEF24" Version="1.1.9.0" Language="1033" InstallDate="12/16/2017 18:19:30" OSVersionAtInstallTime="10.0.0.14393" RootDirPath="c:\program files\windowsapps\48646dylanloftus.colourfulcalculator_1.1.9.0_x64__766vgrc1crmcg" Id="000035ba081f6902d70c2a72d41177b01ce500000904">
         <Indicators>
           <WindowsStoreAppManifestIndicators>
-            <PackageManifest PackageFullName="48646DylanLoftus.ColourfulCalculator_1.1.5.0_x64__766vgrc1crmcg">
+            <PackageManifest PackageFullName="48646DylanLoftus.ColourfulCalculator_1.1.9.0_x64__766vgrc1crmcg">
               <Package>
-                <Identity Name="48646DylanLoftus.ColourfulCalculator" Publisher="CN=EAF95955-DE35-446C-A0C3-4E6C51AEEF24" Version="1.1.5.0" ProcessorArchitecture="x64" />
+                <Identity Name="48646DylanLoftus.ColourfulCalculator" Publisher="CN=EAF95955-DE35-446C-A0C3-4E6C51AEEF24" Version="1.1.9.0" ProcessorArchitecture="x64" />
                 <PhoneIdentity PhoneProductId="9a6f7e04-df83-4a3a-8200-cb5a58432547" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
                 <Properties>
                   <DisplayName>ColourfulCalculator</DisplayName>
@@ -185,21 +183,21 @@
             </PackageManifest>
             <BundleManifest PackageFamilyName="48646DylanLoftus.ColourfulCalculator_766vgrc1crmcg">
               <Bundle SchemaVersion="2.0">
-                <Identity Name="48646DylanLoftus.ColourfulCalculator" Publisher="CN=EAF95955-DE35-446C-A0C3-4E6C51AEEF24" Version="1.1.5.0" />
+                <Identity Name="48646DylanLoftus.ColourfulCalculator" Publisher="CN=EAF95955-DE35-446C-A0C3-4E6C51AEEF24" Version="1.1.9.0" />
                 <Packages>
-                  <Package Type="application" Version="1.1.5.0" Architecture="x86" FileName="App1_1.1.5.0_x86.appx" Offset="955398" Size="457974">
+                  <Package Type="application" Version="1.1.9.0" Architecture="x86" FileName="App1_1.1.9.0_x86.appx" Offset="1086777" Size="523675">
                     <Resources>
                       <Resource Language="EN-US" />
                       <Resource Scale="200" />
                     </Resources>
                   </Package>
-                  <Package Type="application" Version="1.1.5.0" Architecture="x64" FileName="App1_1.1.5.0_x64.appx" Offset="473093" Size="482230">
+                  <Package Type="application" Version="1.1.9.0" Architecture="x64" FileName="App1_1.1.9.0_x64.appx" Offset="538783" Size="547919">
                     <Resources>
                       <Resource Language="EN-US" />
                       <Resource Scale="200" />
                     </Resources>
                   </Package>
-                  <Package Type="application" Version="1.1.5.0" Architecture="arm" FileName="App1_1.1.5.0_ARM.appx" Offset="51" Size="472967">
+                  <Package Type="application" Version="1.1.9.0" Architecture="arm" FileName="App1_1.1.9.0_ARM.appx" Offset="51" Size="538657">
                     <Resources>
                       <Resource Language="EN-US" />
                       <Resource Scale="200" />
@@ -217,8 +215,8 @@
     </Installed_Programs>
   </APPLICATIONS>
   <DEPENDENCY_INFORMATION>
-    <AitStaticAnalysis ProgramId="000037edf19f12d7e8ad0c54b8508155af4f00000904" AnalysisVersion="1.60" DictionaryVersion="3.1" Type="Package" Id="48646DylanLoftus.ColourfulCalculator_1.1.5.0_x64__766vgrc1crmcg">
-      <AitFile ErrorCode="0" Name="App1.dll" Id="00001701a1879284aa6f111919bd80291dc73a0ab5a5">
+    <AitStaticAnalysis ProgramId="000035ba081f6902d70c2a72d41177b01ce500000904" AnalysisVersion="1.60" DictionaryVersion="3.1" Type="Package" Id="48646DylanLoftus.ColourfulCalculator_1.1.9.0_x64__766vgrc1crmcg">
+      <AitFile ErrorCode="0" Name="App1.dll" Id="000004f2cb40438e7a39fe1df52d9bed487847680013">
         <AitCategory Id="Com">
           <AitFeature Name="{00000003-0000-0000-c000-000000000046}" />
           <AitFeature Name="{00020401-0000-0000-c000-000000000046}" />
@@ -639,7 +637,7 @@
           <AitFeature Name="api-ms-win-core-processthreads-l1-1-0.dll!GetCurrentThreadId" />
         </AitCategory>
       </AitFile>
-      <AitFile ErrorCode="0" Name="App1.exe" Id="0000d0af900acf06e71b319bf7d251f5f5fc44bc2589" />
+      <AitFile ErrorCode="0" Name="App1.exe" Id="0000ec682bf4ac1c5022e17065c563a712da6f50c079" />
     </AitStaticAnalysis>
   </DEPENDENCY_INFORMATION>
 </REPORT>

@@ -133,6 +133,7 @@ C:\Users\Dylan\Documents\Csharp Project\App1\App1\bin\ARM\Release\System.Xml.Rea
 C:\Users\Dylan\Documents\Csharp Project\App1\App1\bin\ARM\Release\System.Xml.XDocument.dll
 C:\Users\Dylan\Documents\Csharp Project\App1\App1\bin\ARM\Release\System.Xml.XmlDocument.dll
 C:\Users\Dylan\Documents\Csharp Project\App1\App1\bin\ARM\Release\System.Xml.XmlSerializer.dll
+C:\Users\Dylan\Documents\Csharp Project\App1\App1\obj\ARM\Release\App1.csprojResolveAssemblyReference.cache
 C:\Users\Dylan\Documents\Csharp Project\App1\App1\obj\ARM\Release\App.g.i.cs
 C:\Users\Dylan\Documents\Csharp Project\App1\App1\obj\ARM\Release\App.g.cs
 C:\Users\Dylan\Documents\Csharp Project\App1\App1\obj\ARM\Release\MainPage.g.i.cs
