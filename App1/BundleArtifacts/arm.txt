@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Dylan\Documents\Csharp Project\App1\App1\bin\ARM\Release\App1_1.1.5.0_ARM.appx
+SymbolPackage=C:\Users\Dylan\Desktop\App1_1.1.5.0_Test\App1_1.1.5.0_ARM.appxsym

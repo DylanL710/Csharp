@@ -1,0 +1,10 @@
+/out:"C:\Users\Dylan\Documents\Csharp Project\App1\App1\obj\x86\Release\ilc\intermediate\SgGenerated\\"
+/int:"C:\Users\Dylan\Documents\Csharp Project\App1\App1\obj\x86\Release\ilc\intermediate\\"
+/ref:"C:\Users\Dylan\Documents\Csharp Project\App1\App1\obj\x86\Release\ilc\intermediate\PreMergeILTransformed\\"
+/ref:"C:\Users\Dylan\Documents\Csharp Project\App1\App1\obj\x86\Release\ilc\intermediate\TransformedSRWR\\"
+/ref:"C:\Users\Dylan\Documents\Csharp Project\App1\App1\obj\x86\Release\ilc\in\\"
+/ref:"C:\Users\Dylan\Documents\Csharp Project\App1\App1\obj\x86\Release\ilc\in\\"
+/ref:"C:\Users\Dylan\Documents\Csharp Project\App1\App1\obj\x86\Release\ilc\in\\"
+/ref:"C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\x86\ilc\lib\Private\\"
+/ref:"C:\Users\Dylan\Documents\Csharp Project\App1\App1\obj\x86\Release\ilc\in\WinMetadata\\"
+/ca:System.Private.CoreLib
