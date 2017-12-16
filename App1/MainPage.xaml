@@ -8,7 +8,7 @@
     mc:Ignorable="d">
 
     <Grid>
-
+        <!--Creating the Grid and adding the background-->
         <Grid.Background>
             <ImageBrush ImageSource="Assets/gradient.png"></ImageBrush>
         </Grid.Background>
@@ -26,7 +26,7 @@
             <RowDefinition />
             <RowDefinition />
         </Grid.RowDefinitions>
-
+        <!--Layout of the app-->
         <StackPanel Grid.Row="0" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Left" Height="auto" Margin="10,10,0,0" VerticalAlignment="Top" Width="auto">
             <Button x:Name="seven" Content="7" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Height="70" Width="100" Click="Number_click"/>
             <Button x:Name="eight" Content="8" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="100" Click="Number_click"/>
