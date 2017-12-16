@@ -23,7 +23,7 @@ namespace App1
     // Functionality for the calculator goes here
     public sealed partial class MainPage : Page
     {
-
+        // Declare and Initialize variables
         double total = 0;
         double ans = 0;
         String key = "";
@@ -34,12 +34,14 @@ namespace App1
             this.InitializeComponent();
         }
 
+        //Method for when user clicks on a number button.
         private void Number_click(object sender, RoutedEventArgs e)
         {
             Button b = (Button)sender;
             answer.Text += (String)b.Content;
         }
 
+        //Method for when a user clicks on an operation button like the + - * or /
         private void operation_Click(object sender, RoutedEventArgs e)
         {
             Button b = (Button)sender;
@@ -49,6 +51,7 @@ namespace App1
             dec = false;
         }
 
+        //Method to make sure that there is no more than one decimal placed.
         private void dec_Click(object sender, RoutedEventArgs e)
         {
             if (!dec)
@@ -58,6 +61,7 @@ namespace App1
             }
         }
 
+        //Method to clear all text from the text box.
         private void clear_Click(object sender, RoutedEventArgs e)
         {
             total = 0;
@@ -67,6 +71,8 @@ namespace App1
             answer.Text = "";
         }
 
+        //Method to take make sure there is text in the textbox, it also looks at which operation button was clicked and applies
+        //that operation to the two numbers inputed.
         private void enter_Click(object sender, RoutedEventArgs e)
         {
             if (answer.Text.Length > 0)
@@ -94,6 +100,7 @@ namespace App1
             }
         }
 
+        //Method to save whatever number is in the textbox to local storage container.
         public void save(object sender, RoutedEventArgs e)
         {
             Button b = (Button)sender;
@@ -106,6 +113,7 @@ namespace App1
 
         }
 
+        //Method that takes whatever number was saved to the local storage container and place it into the textbox.
         public void load(object sender, RoutedEventArgs e)
         {
             Button b = (Button)sender;
