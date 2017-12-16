@@ -45,8 +45,8 @@
             <Button x:ConnectionId='6' x:Name="one" Content="1" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Height="70" Width="100"                     />
             <Button x:ConnectionId='7' x:Name="two" Content="2" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="100"                     />
             <Button x:ConnectionId='8' x:Name="three" Content="3" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="100"                     />
-            <Button x:ConnectionId='9' x:Name="save_Calc" Content="Save Calculation" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="150"/>
-            <Button x:ConnectionId='10' x:Name="load_Calc" Content="Load Calculation" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="150"/>
+            <Button x:ConnectionId='9' x:Name="save_Calc" Content="Save Calculation" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="150"             />
+            <Button x:ConnectionId='10' x:Name="load_Calc" Content="Load Calculation" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Height="70" Width="150"             />
         </StackPanel>
         <StackPanel Grid.Row="3" Grid.ColumnSpan="5" Orientation="Horizontal" HorizontalAlignment="Left" Height="auto" Margin="10,0,0,0" VerticalAlignment="Top" Width="auto">
             <Button x:ConnectionId='2' x:Name="zero" Content="0" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Height="70" Width="100"                     />

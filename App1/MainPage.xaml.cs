@@ -94,9 +94,34 @@ namespace App1
             }
         }
 
-        private void save()
+        public void save(object sender, RoutedEventArgs e)
         {
-            
+            Button b = (Button)sender;
+            Windows.Storage.ApplicationDataContainer localSettings = Windows.Storage.ApplicationData.Current.LocalSettings;
+
+            Windows.Storage.ApplicationDataContainer container = localSettings.CreateContainer("savedContent", Windows.Storage.ApplicationDataCreateDisposition.Always);
+
+            localSettings.Containers["savedContent"].Values["exampleSetting"] = answer.Text;
+
+
+        }
+
+        public void load(object sender, RoutedEventArgs e)
+        {
+            Button b = (Button)sender;
+
+            Windows.Storage.ApplicationDataContainer localSettings = Windows.Storage.ApplicationData.Current.LocalSettings;
+
+            Windows.Storage.ApplicationDataContainer container = localSettings.CreateContainer("savedContent", Windows.Storage.ApplicationDataCreateDisposition.Always);
+
+            bool hasContainer = localSettings.Containers.ContainsKey("savedContent");
+            bool hasSetting = false;
+
+            if (hasContainer)
+            {
+                hasSetting = localSettings.Containers["savedContent"].Values.ContainsKey("exampleSetting");
+                answer.Text += localSettings.Containers["savedContent"].Values["exampleSetting"];
+            }
         }
     }
 }
